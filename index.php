@@ -62,7 +62,7 @@
     <div class="container availability-form">
         <div class="row">
             <div class="col-lg-12 bg-white p-4 shadow rounded">
-                <h5 class="mb-4">Check Ketersediaan pesanan</h5>
+                <h5 class="mb-4">Cek Ketersediaan</h5>
                 <form>
                     <div class="row align-items-end">
                         <div class="col-lg-3 mb-3">

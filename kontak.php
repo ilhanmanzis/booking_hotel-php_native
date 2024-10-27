@@ -43,15 +43,37 @@
                     <a href="tel: +6281282544112" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-telephone-fill"></i> +6281282544112</a>
                     <h5 class="mt-4">Email</h5>
                     <a href="mailto: admin@admin.com" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-envelope-fill"></i> admin@admin.com</a>
+                    <h5 class="mt-4">Follow Kami</h5>
+                    <a href="#" class="d-inline-block mb-3 text-dark fs-5 me-2">
+                        <i class="bi bi-facebook me-1"></i>
+                    </a>
+                    <a href="#" class="d-inline-block mb-3 text-dark fs-5 me-2">
+                        <i class="bi bi-instagram"></i>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-6 col-md-6 mb-5 px-4">
-                <div class="bg-white rounded shadow p-4 border-top border-4 border-dark pop">
-                    <div class="d-flex align-items-center mb-2">
-                        <img src="assets/images/facilities/IMG_43553.svg" alt="" width="40px">
-                        <h5 class="m-0 ms-3">Wifi</h5>
-                    </div>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Expedita rerum possimus perspiciatis enim dolore reprehenderit beatae eos, perferendis praesentium ex.</p>
+                <div class="bg-white rounded shadow p-4">
+                    <form>
+                        <h5>Kirim Pesan</h5>
+                        <div class="mt-3">
+                            <label class="form-label" style="font-weight: 500;">Name</label>
+                            <input type="text" class="form-control shadow-none">
+                        </div>
+                        <div class="mt-3">
+                            <label class="form-label" style="font-weight: 500;">Email</label>
+                            <input type="email" class="form-control shadow-none">
+                        </div>
+                        <div class="mt-3">
+                            <label class="form-label" style="font-weight: 500;">Subject</label>
+                            <input type="text" class="form-control shadow-none">
+                        </div>
+                        <div class="mt-3">
+                            <label class="form-label" style="font-weight: 500;">Pesan</label>
+                            <textarea class="form-control shadow-none" rows="5" style="resize: none;"></textarea>
+                        </div>
+                        <button class="btn text-white custom-bg mt-3">Kirim</button>
+                    </form>
                 </div>
             </div>
         </div>
